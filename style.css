@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--fonts-color);
+}
+.header,
+.header2 {
+  display: flex;
+}
+header .carrier {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+header .clock {
+  padding-top: 1.2rem;
+  padding-left: 4rem;
+}
+#internet {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.7rem;
+}
+#charge {
+  padding-top: 1rem;
+  padding-left: 7rem;
+}
+#Twitter-img {
+  width: 50px;
+  height: 50px;
+  padding-left: 11rem;
+}
+.signup {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  color: rgb(92 164 245);
+}
+#dots {
+  margin-left: 2rem;
+  color: rgb(92 164 245);
+}
+.head1 {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+.parg-1,
+.parg-2 {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  color: rgb(115 113 113);
+}
+#name,
+#password {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 70%;
+  padding: 12px 20px;
+}
+
+#startButton {
+  background-color: rgb(92 164 245);
+  border: none;
+  color: white;
+  padding: 15px 25px 12px 27px;
+  border-radius: 30px;
+  margin-top: 16rem;
+  margin-left: 17rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
