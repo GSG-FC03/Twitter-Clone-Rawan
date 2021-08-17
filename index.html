@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Twitter-Clone-App</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="header">
+      <h4 class="carrier">Carrier</h4>
+      <img
+        src="https://img.icons8.com/fluency-systems-regular/50/000000/wi-fi-good.png"
+        id="internet"
+      />
+      <h4 class="clock">12:39 PM</h4>
+      <img
+        src="https://img.icons8.com/ios-glyphs/32/000000/high-battery.png"
+        id="charge"
+      />
+    </header>
+    <header class="header2">
+      <img src="./assets/twitter--v1.png" id="Twitter-img" />
+      <h4 class="signup">Sign up</h4>
+      <img src="https://img.icons8.com/color/48/000000/more.png" id="dots" />
+    </header>
+    <hr style="color: rgb(202, 199, 199)" />
+
+    <article>
+      <h1 class="head">Login to Twitter</h1>
+    </article>
+    <article>
+      <p class="parg-1">phone number, email adress, or user name</p>
+      <input type="text" id="name" size="20" />
+    </article>
+    <article>
+      <p class="parg-2">password</p>
+      <input type="password" id="password" size="20" />
+    </article>
+    <footer><button id="startButton" class="btn-login">Log in</button></footer>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
