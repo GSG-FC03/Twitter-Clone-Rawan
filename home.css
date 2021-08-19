@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--fonts-color);
+}
+.header,
+.header-2 {
+  display: flex;
+}
+header .carrier {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+header .clock {
+  padding-top: 1.2rem;
+  padding-left: 4rem;
+}
+#internet {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.7rem;
+}
+#charge {
+  padding-top: 1rem;
+  padding-left: 7rem;
+}
+
+#img0 {
+  margin-left: 2.7rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+#Twitter-img {
+  width: 47px;
+  height: 46px;
+
+  margin-left: 6rem;
+}
+
+h2 {
+  margin-left: 6.5rem;
+  margin-top: 0.4rem;
+}
+
+#userlabel,
+#tweetlabel {
+  margin-left: 10rem;
+  margin-top: 1rem;
+  font-family: cursive;
+
+  display: block;
+  color: rgb(45, 154, 243);
+  font-size: 20px;
+}
+#name {
+  margin-top: 1rem;
+  margin-left: 7rem;
+  width: 200px;
+  height: 30px;
+  display: block;
+}
+#name:hover,
+#textarea:hover {
+  background-color: rgb(221, 238, 252);
+}
+#textarea {
+  margin-left: 6.7rem;
+  margin-top: 1rem;
+  /* max-width: 150px; */
+}
+
+#tweet {
+  margin-left: 11rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: rgb(92 164 245);
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  padding: 7px 24px 6px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
