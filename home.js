@@ -25,7 +25,7 @@ function createTweet(e) {
           <figure class="comment">
             <img
               src="https://img.icons8.com/ios/50/000000/topic.png"
-              id="comment-icon"
+              class="comment-icon"
             />
           </figure>
           `,
@@ -39,16 +39,16 @@ function createTweet(e) {
               `<figure class="re-tweet">
               <img
                 src="https://img.icons8.com/small/16/000000/retweet.png"
-                id="re-tweet-icon" onclick="reTweet(${index})"
+                class="re-tweet-icon" onclick="reTweet(${index})"
               />
             </figure>
               <figure class="heart"></figure>
         <img
           src=${element.likeSrc} onclick="like(${index})"
-          // id="heart-icon"
+          // class="heart-icon"
         />
         <img src="https://img.icons8.com/ios/50/000000/no-message--v2.png"/
-        id="message-icon">
+        class="message-icon">
       </article>
 
       <hr style="margin-top: 1rem" />
@@ -85,7 +85,10 @@ function reTweet(index) {
   if (nameField.value !== "") {
     myTweets.unshift({
       tweet:
-        `<p class="retweet-this">${nameField.value} retweets this</p>` +
+        `<article class="newretweet"><img class="retweet-img"
+
+        src="https://img.icons8.com/small/16/000000/retweet.png"/>
+        <p class="retweet-this">${nameField.value} retweets this</p> </article>` +
         myTweets[index].tweet,
       likeSrc: "https://img.icons8.com/ios-glyphs/16/000000/like--v2.png",
     });
@@ -97,16 +100,16 @@ function reTweet(index) {
           `<figure class="re-tweet">
               <img
                 src="https://img.icons8.com/small/16/000000/retweet.png"
-                id="re-tweet-icon" onclick="reTweet(${index})"
+                class="re-tweet-icon" onclick="reTweet(${index})"
               />
             </figure>
               <figure class="heart"></figure>
         <img
           src=${element.likeSrc} onclick="like(${index})"
-          id="heart-icon"
+          class="heart-icon"
         />
         <img src="https://img.icons8.com/ios/50/000000/no-message--v2.png"/
-        id="message-icon">
+        class="message-icon">
       </article>
 
       <hr style="margin-top: 1rem" />
@@ -116,7 +119,3 @@ function reTweet(index) {
     alert("please enter your username");
   }
 }
-{
-  /* <img */
-}
-// src="https://img.icons8.com/small/16/000000/retweet.png"
