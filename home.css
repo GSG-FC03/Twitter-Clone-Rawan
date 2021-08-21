@@ -11,6 +11,9 @@ body {
 .header-2 {
   display: flex;
 }
+.header-div {
+  display: flex;
+}
 header .carrier {
   padding-top: 1rem;
   padding-left: 2rem;
@@ -45,7 +48,6 @@ header .clock {
 
 h2 {
   margin-left: 6.5rem;
-  margin-top: 0.4rem;
 }
 
 #userlabel,
@@ -103,27 +105,28 @@ h2 {
   display: flex;
   margin-top: 0.5rem;
 }
-#comment-icon {
+.comment-icon {
   margin-left: 2rem;
 
   width: 20px;
   height: 20px;
 }
 
-#re-tweet-icon {
+.re-tweet-icon {
   width: 20px;
   height: 20px;
   margin-left: 7.5rem;
 }
 
-#heart-icon {
+.heart-icon {
   margin-left: 4.5rem;
   margin-top: 0.5rem;
   width: 20px;
   height: 20px;
 }
 
-#message-icon {
+.message-icon {
+  width: 2opx;
   height: 20px;
   margin-top: 0.5rem;
   margin-left: 5.4rem;
@@ -148,9 +151,18 @@ h3 {
   margin-top: 2rem;
 }
 .retweet-this {
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-top: 2rem;
   font-size: 20px;
   color: rgb(92 164 245);
   font-family: cursive;
+}
+.newretweet{
+  display: flex;
+}
+.retweet-img{
+  margin-left: 2rem;
+  margin-top: 2.3rem;
+  width: 20px;
+  height: 20px;
 }
