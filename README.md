@@ -1,6 +1,7 @@
 # Twitter-Clone-Rawan
 [Rawan zaqout](https://github.com/Rawanzaqout)
-
+## ✧Description
+A simple Twitter clone application created to simulate the basic design and functionality of the official Twitter app. The demo app has a home screen - it contains a username and tweet details
 # ✧links:
 
 [live link](https://gsg-fc03.github.io/Twitter-Clone-Rawan/)
