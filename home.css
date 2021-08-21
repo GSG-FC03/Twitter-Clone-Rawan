@@ -87,3 +87,70 @@ h2 {
   border-radius: 20px;
   text-align: center;
 }
+.icons {
+  display: flex;
+}
+.comment {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-top: 0.3rem;
+}
+.heart {
+  display: flex;
+}
+.re-tweet {
+  display: flex;
+  margin-top: 0.5rem;
+}
+#comment-icon {
+  margin-left: 2rem;
+
+  width: 20px;
+  height: 20px;
+}
+
+#re-tweet-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 7.5rem;
+}
+
+#heart-icon {
+  margin-left: 4.5rem;
+  margin-top: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+#message-icon {
+  height: 20px;
+  margin-top: 0.5rem;
+  margin-left: 5.4rem;
+}
+
+.par-j {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-family: cursive;
+  max-width: 84%;
+}
+h3 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+
+  font-family: cursive;
+}
+.nickname {
+  margin-left: 2rem;
+}
+.p-tweet {
+  margin-top: 2rem;
+}
+.retweet-this {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 20px;
+  color: rgb(92 164 245);
+  font-family: cursive;
+}
