@@ -87,3 +87,240 @@ h2 {
   border-radius: 20px;
   text-align: center;
 }
+.icons {
+  display: flex;
+}
+.comment {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-top: 0.3rem;
+}
+.heart {
+  display: flex;
+}
+.re-tweet {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.comment-icon {
+  margin-left: 2rem;
+
+  width: 20px;
+  height: 20px;
+}
+
+.re-tweet-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 7.5rem;
+}
+
+.heart-icon {
+  margin-left: 4.5rem;
+  margin-top: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+.message-icon {
+  width: 2opx;
+  height: 20px;
+  margin-top: 0.5rem;
+  margin-left: 5.4rem;
+}
+
+.par-j {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-family: cursive;
+  max-width: 84%;
+}
+h3 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+
+  font-family: cursive;
+}
+.nickname {
+  margin-left: 2rem;
+}
+.p-tweet {
+  margin-top: 2rem;
+}
+.retweet-this {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 20px;
+  color: rgb(92 164 245);
+  font-family: cursive;
+}
+.newretweet {
+  display: flex;
+}
+.retweet-img {
+  margin-left: 2rem;
+  margin-top: 2.3rem;
+  width: 20px;
+  height: 20px;
+} /* Responsive Design for full screen    */
+@media only screen and (min-width: 1300px) {
+  header .carrier {
+    padding-left: 5rem;
+  }
+
+  header .clock {
+    padding-left: 20rem;
+  }
+
+  #charge {
+    padding-left: 22rem;
+  }
+
+  #img0 {
+    margin-left: 6rem;
+  }
+  h2 {
+    margin-left: 22rem;
+  }
+  #Twitter-img {
+    margin-left: 22rem;
+  }
+  #userlabel,
+  #tweetlabel {
+    margin-left: 28rem;
+    font-size: 40px;
+  }
+  #tweetlabel {
+    margin-top: 2rem;
+  }
+  #name {
+    margin-left: 26rem;
+    margin-top: 2rem;
+
+    width: 301px;
+  }
+  #textarea {
+    margin-left: 26rem;
+    margin-top: 3rem;
+    width: 312px;
+    height: 150px;
+    display: block;
+  }
+  .newretweet {
+    margin-left: 3rem;
+  }
+  #tweet {
+    margin-left: 31rem;
+    margin-top: 3rem;
+    color: white;
+    padding: 12px 45px 15px 37px;
+    border-radius: 33px;
+    font-size: 30px;
+  }
+  h3,
+  .nickname,
+  .par-j {
+    margin-left: 5rem;
+  }
+  .par-j {
+    font-size: 26px;
+  }
+  .comment {
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+  .re-tweet-icon {
+    margin-left: 16rem;
+    margin-top: 0.6rem;
+  }
+  .heart-icon {
+    margin-left: 15rem;
+    margin-top: 1rem;
+  }
+  .message-icon {
+    margin-left: 19rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  header .carrier {
+    padding-left: 5rem;
+  }
+
+  header .clock {
+    padding-left: 20rem;
+  }
+
+  #charge {
+    padding-left: 22rem;
+  }
+
+  #img0 {
+    margin-left: 6rem;
+  }
+  h2 {
+    margin-left: 22rem;
+  }
+  #Twitter-img {
+    margin-left: 22rem;
+  }
+  #userlabel,
+  #tweetlabel {
+    margin-left: 28rem;
+    font-size: 40px;
+  }
+  #tweetlabel {
+    margin-top: 2rem;
+  }
+  #name {
+    margin-left: 26rem;
+    margin-top: 2rem;
+
+    width: 301px;
+  }
+  #textarea {
+    margin-left: 26rem;
+    margin-top: 3rem;
+    width: 312px;
+    height: 150px;
+    display: block;
+  }
+  .newretweet {
+    display: flex;
+    margin-left: 3rem;
+  }
+  #tweet {
+    margin-left: 31rem;
+    margin-top: 3rem;
+    color: white;
+    padding: 12px 45px 15px 37px;
+    border-radius: 33px;
+    font-size: 30px;
+  }
+  h3,
+  .nickname,
+  .par-j {
+    margin-left: 5rem;
+  }
+  .par-j {
+    font-size: 26px;
+  }
+  .comment {
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+  .re-tweet-icon {
+    margin-left: 16rem;
+    margin-top: 0.6rem;
+  }
+  .heart-icon {
+    margin-left: 15rem;
+    margin-top: 1rem;
+  }
+  .message-icon {
+    margin-left: 19rem;
+    margin-top: 1rem;
+  }
+}
