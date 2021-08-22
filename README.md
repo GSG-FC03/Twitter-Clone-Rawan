@@ -9,7 +9,7 @@ A simple Twitter clone application created to simulate the basic design and func
 [design link](https://www.figma.com/file/H1umAr6TRvHjiU1JnkmfLH/Untitled?node-id=0%3A1)
 
 ## ✧The wireframes ( The initial screen)
- <img  width="100"  src="assets/wireframe .png" >
+ <img  width="100"  src="assets/w.f.png" >
 
 ## ✧User journey
 The user enters the app and adds their username and tweet to the input .
@@ -21,6 +21,7 @@ You can click on the like icon for any tweet you like .
 You can click the retweet button to any tweet you like.
 
 ## ✧User Story
+<img  width="100"  src="assets/u.s.png" >
 
 - As a user, I can add a username
 - As a user, I can add tweets
