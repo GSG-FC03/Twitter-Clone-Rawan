@@ -21,7 +21,7 @@ You can click on the like icon for any tweet you like .
 You can click the retweet button to any tweet you like.
 
 ## ✧User Story
-<img  width="100"  src="assets/u.s.png" >
+<img    src="assets/u.s.png" >
 
 - As a user, I can add a username
 - As a user, I can add tweets
